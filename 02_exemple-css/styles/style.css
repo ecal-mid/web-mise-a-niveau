@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  margin: 0;
+}
+
+.menu {
+  padding: 20px;
+  background: grey;
+  text-align: right;
+}
+
+.menu-item {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.menu-item:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.menu > .menu-item + .menu-item {
+  margin-left: 10px;
+}
+
+.sub-menu {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.sub-menu:hover .sub-menu-items{
+  display: block;
+}
+
+.sub-menu-items {
+  position: absolute;
+  right: 0;
+  display: none;
+  padding: 20px;
+  background: red;
+}
+
+.sub-menu .menu-item {
+  display: block;
+  text-align: right;
+}
