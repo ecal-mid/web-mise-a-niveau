@@ -29,6 +29,7 @@ h5 {
   text-decoration: underline;
 }
 
+/* Select only .menu-items directly in the .menu */
 .menu > .menu-item + .menu-item {
   margin-left: 10px;
 }
@@ -38,10 +39,12 @@ h5 {
   margin-left: 10px;
 }
 
+/* Display the .sub-menu-items when the user is on the .sub-menu */
 .sub-menu:hover .sub-menu-items{
   display: block;
 }
 
+/* Hide the .sub-menu-items by default and change it's position */
 .sub-menu-items {
   position: absolute;
   right: 0;
