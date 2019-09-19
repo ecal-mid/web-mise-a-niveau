@@ -1,37 +1,46 @@
-Welcome to Glitch
+(En développement)
+Web - Mise à niveau
 =================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Le World Wide Web à été développé dans les années 90 par Tim Berners Lee au CERN. Au départ cette technologie devait servir aux scientifiques pour partager du contenu et des articles scientifiques.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+Ce dossier a été crée dans le cadre de la semaine de mise à niveau en Media & Interaction Design à l'ECAL.
 
-Find out more [about Glitch](https://glitch.com/about).
+Il contient 5 exemples (contenus dans des dossiers séparés) illustrent différentes technologies utilisée dans ce dommain.
 
+Trois languages sont utilisés dans le développement d'un site web.
 
-Your Project
-------------
+Le HTML (Hyper Text Markup Language) est utilisé pour créer le "squelette" du site. C'est avec ce language que le contenu est ajouté dans la page.
 
-### ← README.md
+Le CSS (Cascading Style Sheet) sert à modifier la mise en page. C'est avec ce language que l'on peut modifier la couleur, la taille, la position, etc... des éléments présents dans une page.
 
-That's this file, where you can tell people what your cool website does and how you built it.
+Le JS (JavaScript) est un language de programmation à part entière qui nous permet d'ajouter des comportement dynamiques à une page web.
 
-### ← index.html
+## EXEMPLE DOM
 
-Where you'll write the content of your website. 
+---
 
-### ← style.css
+Le DOM (Document Object Model) 
 
-CSS files add styling rules to your content.
+Ce exemple présente différentes balises HTML.
 
-### ← script.js
+H1, H2, H3, H4, H5
+P
+A
+DIV, SPAN
 
-If you're feeling fancy you can add interactivity to your site with JavaScript.
+## EXEMPLE CSS
 
-### ← assets
+---
 
-Drag in `assets`, like images or music, to add them to your project
+## EXEMPLE JS
 
-Made by [Glitch](https://glitch.com/)
--------------------
+---
 
-\ ゜o゜)ノ
+## EXEMPLE CANVAS
+
+---
+
+## EXEMPLE P5
+
+---
