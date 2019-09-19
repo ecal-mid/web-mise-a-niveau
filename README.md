@@ -1,5 +1,31 @@
+Installation
+=================
+
+Pour télécharger ce dossier cliquez sur "Download ZIP" comme ci dessous:
+
+![](download.png)
+
+Structure des exemples
+=================
+
+Tous les exemples suivent une même structure.
+
+Un fichier "index.html" se trouve à la racine de chaque dossier. Les styles et scripts sont stoqués soit dans un dossier "styles" soit dans un dossier "scripts".
+
+```
+exemple/
+├── index.html
+├── styles/
+│   ├── style.css
+├── scripts/
+│   ├── sctipt.js
+│   └── p5.min.js
+└── images/
+    └── img.jpg
+```
+
 (En développement)
-Web - Mise à niveau
+Introduction
 =================
 
 Le World Wide Web à été développé dans les années 90 par Tim Berners Lee au CERN. Au départ cette technologie devait servir aux scientifiques pour partager du contenu et des articles scientifiques.
@@ -16,7 +42,7 @@ Le CSS (Cascading Style Sheet) sert à modifier la mise en page. C'est avec ce l
 
 Le JS (JavaScript) est un language de programmation à part entière qui nous permet d'ajouter des comportement dynamiques à une page web.
 
-## EXEMPLE DOM
+## 01 – EXEMPLE DOM
 
 ---
 
